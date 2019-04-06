@@ -7,7 +7,7 @@ api_key= 'xxxxxx'
 input = 'xxxx.pdf'
 output= 'xxxx.xls'
 
-c = pdftables_api.Client('1igpxa1x8wf6')
+c = pdftables_api.Client(api_key)
 c.xlsx(input, output) 
 
 #replace c.xlsx with c.csv to convert to CSV
